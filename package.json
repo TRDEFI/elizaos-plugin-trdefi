@@ -1,0 +1,40 @@
+{
+  "name": "@trdefi/plugin-trdefi",
+  "version": "1.0.0",
+  "description": "ElizaOS plugin for TRDEFI — read-only, non-custodial stablecoin liquidity (chains, stats, strategies, quotes)",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "type": "module",
+  "keywords": [
+    "elizaos",
+    "eliza",
+    "plugin",
+    "trdefi",
+    "defi",
+    "stablecoin",
+    "liquidity"
+  ],
+  "author": "TRDEFI LTD <info@trdefi.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TRDEFI/elizaos-plugin-trdefi.git"
+  },
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "test": "vitest run",
+    "lint": "eslint src --ext .ts"
+  },
+  "peerDependencies": {
+    "@elizaos/core": "^1.0.0"
+  },
+  "devDependencies": {
+    "@elizaos/core": "^1.7.0",
+    "@types/node": "^26.6.3",
+    "eslint": "^9.0.0",
+    "tsup": "^8.0.0",
+    "typescript": "^5.6.0",
+    "vitest": "^2.0.0"
+  }
+}
